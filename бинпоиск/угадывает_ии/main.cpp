@@ -12,10 +12,10 @@ int main() {
             break;
         }
         else if (s == "<") {
-            right = ans;
+            right = ans - 1;
         }
         else {
-            left = ans;
+            left = ans + 1;
         }
 
     }

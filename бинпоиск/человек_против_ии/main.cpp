@@ -34,10 +34,10 @@ int main() {
             break;
         }
         if (answer == "<") {
-            right = mid;
+            right = mid - 1;
         }
         if (answer == ">") {
-            left = mid;
+            left = mid + 1;
         }
     }
     return 0;

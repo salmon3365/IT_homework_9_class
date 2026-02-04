@@ -41,7 +41,7 @@ void solve(double a, double b, double c, double& x1, double& x2, Status& status)
         }
         else{
             status = Status::ONE;
-            x1 = -c / b;
+            x1 = -c / b + 0.0;
 
         }
     }
